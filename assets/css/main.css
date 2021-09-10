@@ -690,19 +690,35 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
+		.image.fit img {
+			width: 100%;
+		}
 
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			image-rendering: optimizeQuality;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main img {
+			width: 100%;
+		}
+
+		#techs{
+			display: flex;
+			flex-wrap: wrap;
+			background-color: white;
+		}
+
+		#techs > a {
+			padding: 1em;
+			margin: 1em;
+		}
+
+		.skill-bullet{
+			list-style-type: none;
+		}
 
 		@media screen and (max-width: 736px) {
 
