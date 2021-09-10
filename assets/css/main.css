@@ -695,14 +695,18 @@ input, select, textarea {
 		}
 
 		.image.main {
-			display: block;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
 			margin: 2.5rem 0;
 			width: 100%;
 			image-rendering: optimizeQuality;
+
 		}
 
 		.image.main img {
-			width: 100%;
+			width: 40%;
+			align-self: center;
 		}
 
 		#techs{
