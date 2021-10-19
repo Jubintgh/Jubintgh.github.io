@@ -1137,6 +1137,8 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		left: 0;
+		height: 130vh;
+		width: 100vw;
 		z-index: 1;
 	}
 
@@ -1182,9 +1184,9 @@ input, select, textarea {
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
+			background-position: center center;
+			height: 130vh;
 			width: 100vw;
-			height: 110vh;
-			zoom: 105%;
 			object-fit: contain;
 			z-index: 1;
 		}
