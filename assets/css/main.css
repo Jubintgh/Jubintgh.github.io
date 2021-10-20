@@ -1685,3 +1685,10 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+	.proj{
+		zoom: 240%;
+		width: 70%;
+		height: 80%;
+		margin: 1%;
+		padding: 1%;
+	}
